@@ -1,17 +1,19 @@
 # Fitosense Clasificador 🦠
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/6f8c79b2-be89-424b-bce4-22d0bc2abfb1" alt="image" width="300">
+  <img src="https://github.com/user-attachments/assets/4ed6cf25-6798-479c-8f3e-b858f532272b" alt="image" width="300">
 </p>
+
 
 
 Este proyecto fue realizado con la finalidad de crear un modelo de clasifiación de fitplancton usando conjuntos de datos abiertos en una Universidad usando una red neuronal convolucional.
 
 Para hacer el acceso a este modelo más sencillo. Se hizo una aplicación web en Anvil. 
 
-![image](https://github.com/user-attachments/assets/e23247c6-1811-4071-98cd-fea846157d58)
+![387038222-e23247c6-1811-4071-98cd-fea846157d58](https://github.com/user-attachments/assets/32f8faeb-5ada-42de-ada1-84528f5e10eb)
 
 # Anexos
+
 
 * Conjunto de datos: https://drive.google.com/file/d/1xW2zUZpablSUA9fGenl-ntKg6-KXn6kA/view?usp=drive_link
 * API de predicción del modelo: https://daniel00611-api-fitoplanctonclassifier.hf.space
@@ -28,9 +30,8 @@ Para usar la aplicación es un proceso muy sencillo, dirigite a la página de Cl
 
 **Nota**: Puedes borrar alguna imagen o todas las imágenes en cualquier momento usando los botones grises debajo.
 
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5f7ed3b1-8be1-4326-bb5b-06406308d721" alt="Recording GIF"  width="800">
+  <img src="https://github.com/user-attachments/assets/4e063619-80a6-446c-9bda-1c938ccab09b" alt="Recording GIF"  width="800">
 </p>
 
 ## Chatbot
@@ -39,9 +40,8 @@ Fitosense es un chatbot que te ayuda a clasificar tus imágenes de fitoplancton.
 
 **Consejo**: ¡Pregúntale acerca de tus resultados!
 
-
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f60d7f8c-5e88-4bf3-b071-09ee5bae1415" alt="image">
+  <img src="https://github.com/user-attachments/assets/124bbe15-e555-49b2-9fdd-53ad6fbec6ee" alt="image">
 </p>
 
 ## Biblioteca
@@ -49,15 +49,15 @@ Fitosense es un chatbot que te ayuda a clasificar tus imágenes de fitoplancton.
 Puedes accerder a la información de todos los géneros que nuestro modelo es capaz de clasificar gracias al apartado de biblioteca donde podrás verlos todos o filtrar según su letra inicial.
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/fa64a7ac-912d-4eab-8870-47f615f9c09f" alt="Recording GIF"  width="800">
+  <img src="https://github.com/user-attachments/assets/8e18803f-6662-4893-b1ce-972e7afd8980" alt="Recording GIF"  width="800">
 </p>
 
 ## Manual de Usuario
 
 Este apartado es una guía para que el usuario pueda revisar cómo puede hacer y revisar sus clasificaciones dentro de la aplicaciónu y cómo puede mejorar sus resultados.
 
-![image](https://github.com/user-attachments/assets/b3678599-52f8-492b-9e5b-e117db56a4cb)
 
+![387052806-b3678599-52f8-492b-9e5b-e117db56a4cb](https://github.com/user-attachments/assets/b01fa86d-c345-43ab-936f-cbae36145773)
 
 # Conjunto de datos
 
@@ -66,14 +66,10 @@ Para el modelo, se consiguieron las imágenes de 3 fuentes y se hizo una distrib
 El cojunto se encuentra disponible en: https://drive.google.com/file/d/1xW2zUZpablSUA9fGenl-ntKg6-KXn6kA/view?usp=drive_link
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1381e330-ce93-4b97-a6b9-e085d2ee5cca" alt="Segunda imagen">
+  <img src="https://github.com/user-attachments/assets/9628cf78-475b-4f8b-ae89-8588d05f8e7d" alt="Segunda imagen">
 </p>
 
 Este modelo fue entrenado con un total de 586 159 imágenes distribuidas en 72 géneros de fitplancton. A pesar de tener pocas imágenes en varias clasificaciones. No se eliminaron pues el propósito de este conjunto es obtener una gran cantidad de clasificaciones que sirvan como guía para clasificar géneros de fitplancton.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/a34df224-4dc6-434e-a445-9debff6978b8" alt="Primera imagen">
-</p>
 
 # Entrenamiento del modelo
 
@@ -198,5 +194,5 @@ history = model.fit(train_generator,
 
 Este entrenamiento dio como resultados la siguiente matriz de confusión.
 
-![image](https://github.com/user-attachments/assets/7073a052-e15a-4df9-b3f8-91a5ea4ff0b7)
+![387064151-7073a052-e15a-4df9-b3f8-91a5ea4ff0b7](https://github.com/user-attachments/assets/591ee100-bbae-4b9e-845e-bd77717a4dea)
 
